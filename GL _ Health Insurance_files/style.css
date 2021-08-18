@@ -1,0 +1,271 @@
+.btn:hover {
+  opacity: 0.9;
+}
+
+.new-nav {
+  background-color: transparent;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+  height: 110px;
+  padding: 35px;
+}
+
+.new-header {
+  position: sticky;
+  top: 0;
+  background-color: #FFF;
+  z-index: 2;
+}
+
+body {
+  min-height: 100%;
+}
+
+.new-main {
+  display: flex;
+  align-items: center;
+}
+.new-main .mainForm {
+  background-color: #fff;
+  border: 1px solid #e2e5e7;
+  margin: 20px auto;
+  padding: 25px;
+}
+.new-main .mainForm .submit {
+  background-color: #396;
+  color: #FFF;
+  min-width: 200px;
+}
+.new-main .mainForm label {
+  /*white-space: nowrap;*/
+}
+.new-main .searchResault {
+  background-color: #FFF;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #e2e5e7;
+  padding: 25px;
+}
+.new-main .searchResault .card {
+  margin-top: 5px;
+}
+.new-main .searchResault .alert-primary {
+  padding-left: 10px;
+  font-size: 14px;
+}
+.new-main .searchResault .header {
+  text-align: center;
+}
+.new-main .searchResault .header .btn {
+  background-color: #396;
+  color: #FFF;
+  margin: 0 5px;
+}
+.new-main .searchResault .header > div {
+  display: inline-block;
+  margin: auto;
+}
+.new-main .searchResault .header .form-control-plaintext {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.new-main .searchResault .card-header {
+  background-color: #396;
+  padding: 0;
+}
+.new-main .searchResault .card-header .btn-link {
+  width: 100%;
+  text-align: left;
+  color: #FFF;
+  padding: 20px;
+}
+.new-main .searchResault .card-body .title {
+  width: 200px !important;
+}
+.new-main .searchResault .card-body ul {
+  padding-left: 0;
+}
+.new-main .searchResault .collapse {
+  margin: 5px 0;
+}
+.new-main .searchResault .collapse .btn {
+  background-color: #396;
+  color: #FFF;
+  min-width: 200px;
+  margin: 0 5px;
+}
+.new-main .searchResault .col-sm-4 {
+  margin-bottom: 15px;
+}
+.new-main .searchResault .box {
+  border: 1px solid #CCC;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 5px #ccc;
+}
+.new-main .searchResault .box .alert {
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+  font-size: 13px;
+}
+.new-main .searchResault .box h3 {
+  background-color: #396;
+  margin: -10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+.new-main .searchResault .box b {
+  color: #396;
+}
+.new-main .searchResault .box .send2 .price {
+  color: #396;
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.new-main .searchResault .box .send2 .price span {
+  font-size: 20px;
+  color: #ccc;
+}
+.new-main .searchResault .box .send2 .btn {
+  min-width: auto !important;
+  width: 100%;
+}
+.new-main .searchResault .box .send {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.new-main .searchResault .box ul {
+  padding-left: 40px;
+  list-style: circle;
+}
+.new-main .searchResault .box p {
+  padding-left: 40px;
+}
+.new-main .searchResault .box .btn {
+  background-color: #396;
+  color: #FFF;
+  min-width: 150px;
+  display: block;
+  margin: 5px 0px;
+}
+.new-main .searchResault .table td {
+  width: 33%;
+}
+.new-main .searchResault .table td:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.new-main .searchResault .col-sm-4:nth-child(even) .box {
+  background-color: #f2f2f2;
+}
+.new-main fieldset {
+  padding: 30px;
+  border-top: 1px solid #CCC;
+}
+.new-main legend {
+  width: auto;
+  padding: 5px;
+}
+
+#carouselExampleControls {
+  position: relative;
+}
+#carouselExampleControls .carousel-item {
+  transition: transform 2s ease, opacity 1s ease-out;
+}
+#carouselExampleControls img {
+  object-fit: cover;
+  height: 100%;
+}
+#carouselExampleControls .btns-cntainer {
+  padding: 50px;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+#carouselExampleControls .btns-cntainer h1 {
+  color: #3a3965;
+  font-weight: bolder;
+}
+#carouselExampleControls .btns-cntainer p {
+  color: #aaa;
+  line-height: 2;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+#carouselExampleControls .btns-cntainer > div {
+  display: inline-block;
+  margin: auto;
+}
+#carouselExampleControls .btns-cntainer button {
+  background-color: #396;
+  color: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 30px;
+  white-space: nowrap;
+}
+
+.new-footer {
+  background-color: #396;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 95.5px;
+  text-transform: uppercase;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+.new-footer .links-container {
+  margin-top: -12px;
+  padding: 0 20px;
+}
+.new-footer .logo-container {
+  margin-top: -3px !important;
+  padding: 0 4px !important;
+}
+.new-footer .uk-panel {
+  margin-top: 25px;
+}
+.new-footer .uk-panel a {
+  color: #FFF;
+}
+.new-footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.new-footer ul li {
+  margin-top: 14px;
+  padding: 0;
+  line-height: 15px;
+}
+.new-footer ul a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.new-footer ul a:hover {
+  color: #FFF;
+}
+.new-footer ul .active {
+  color: #FFF;
+}
+
+/*# sourceMappingURL=style.css.map */

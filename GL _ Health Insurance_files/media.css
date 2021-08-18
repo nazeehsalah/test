@@ -1,0 +1,115 @@
+@media only screen and (max-width: 600px) {
+  main .mainForm {
+    padding: 10px;
+  }
+
+  main fieldset {
+    padding: 5px;
+  }
+
+  main .searchResault .collapse .btn {
+    margin: 5px auto;
+  }
+
+  main .searchResault .card-header .btn-link {
+    padding: 10px;
+  }
+
+  .price {
+    margin: auto;
+  }
+
+  main .searchResault {
+    padding: 15px;
+  }
+  main .searchResault .card-body {
+    padding: 5px;
+  }
+  main .searchResault .card-body .box {
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+  }
+
+  main .searchResault .card-body .title {
+    width: 110px !important;
+  }
+
+  main .searchResault .send {
+    margin-bottom: 70px;
+  }
+
+  .card-body {
+    padding-bottom: 0;
+  }
+
+  main .searchResault .box {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  nav {
+    background-color: #FFF;
+  }
+
+  #carouselExampleControls h1 {
+    margin-top: 30px;
+  }
+  #carouselExampleControls .btns-cntainer a {
+    display: block;
+    text-align: center;
+  }
+  #carouselExampleControls .btns-cntainer a button {
+    margin-bottom: 5px;
+  }
+
+  .new-main .mainForm, .new-main .searchResault {
+    padding: 20px 5px;
+  }
+
+  .new-main fieldset {
+    padding: 10px 5px;
+  }
+  .new-main fieldset .search-btn-container {
+    text-align: center;
+  }
+
+  .new-main .searchResault .card-header .btn-link {
+    padding: 8px;
+  }
+
+  .new-footer {
+    padding: 30px;
+  }
+
+  .new-nav {
+    height: 70px;
+    padding: 5px 10px;
+  }
+  .new-nav a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .new-nav a:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .new-nav .navbar-brand {
+    text-align: center;
+  }
+  .new-nav .navbar-brand img {
+    height: 60px;
+    margin: auto;
+    padding: 5px;
+  }
+}
+@media (max-width: 1024px) {
+	.new-nav {
+		height: auto !important;
+		padding: 0px 10px !important;
+	}
+	a.navbar-brand img {
+		width: 180px;
+	}
+}
+
+/*# sourceMappingURL=media.css.map */
